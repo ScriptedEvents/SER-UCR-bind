@@ -12,8 +12,7 @@ namespace SER_UCR_bind.UCRMethods;
 // ReSharper disable once InconsistentNaming
 public class GetUCRRoleMethod : ReferenceReturningMethod
 {
-    public override string Description => 
-        "Returns the UCR role a player has. Will error if the player doesn't have a role.";
+    public override string Description => "Returns a reference to the UCR role a player has.";
     
     public override Type ReturnType => typeof(ICustomRole);
 

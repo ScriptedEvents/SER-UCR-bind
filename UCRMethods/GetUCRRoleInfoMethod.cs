@@ -24,7 +24,8 @@ public class GetUCRRoleInfoMethod : LiteralValueReturningMethod, IReferenceResol
         new ReferenceArgument<ICustomRole>("custom role reference"),
         new OptionsArgument("property",
             "id",
-            "name")
+            "name"
+        )
     ];
 
     public override void Execute()

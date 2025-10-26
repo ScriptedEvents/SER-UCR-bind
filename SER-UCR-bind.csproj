@@ -64,7 +64,6 @@
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="UCRMethods\GetUCRRoleInfoMethod.cs" />
         <Compile Include="UCRMethods\GetUCRRoleMethod.cs" />
-        <Compile Include="UCRMethods\HasUCRRoleMethod.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="App.config" />

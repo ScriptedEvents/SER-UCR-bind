@@ -17,7 +17,7 @@ namespace SER_UCR_bind.Flag;
 public class OnUCRRoleAssignedFlag : SER.FlagSystem.Structures.Flag
 {
     public override string Description => 
-        "Executes a script when a given role ID has spawned. " +
+        "Executes a script when a given UCR role has spawned. " +
         "Creates an @evPlayer player variable with the player that has this role. " +
         "Creates an *evRole reference variable with the role.";
 
