@@ -3,7 +3,7 @@ Allows for better integration between SER and UCR.
 
 # Prerequesits
 - `SER.dll` installed in the LabAPI plugins folder.
-- `UCR.dll` installed in the LabAPI plugins folder (the EXILED version was not tested, so if possible, stick to LabAPI)
+- `UncomplicatedCustomRoles-LabAPI.dll` installed in the LabAPI plugins folder (the EXILED version was not tested, so if possible, stick to LabAPI)
 
 # Implemented
 ### `GetUCRRoleInfo` method
