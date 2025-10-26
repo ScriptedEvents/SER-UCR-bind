@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SER-UCR-bind", "SER-UCR-bind.csproj", "{EC83CACF-02A0-48F9-AD5B-53F65DB4B374}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC83CACF-02A0-48F9-AD5B-53F65DB4B374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC83CACF-02A0-48F9-AD5B-53F65DB4B374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC83CACF-02A0-48F9-AD5B-53F65DB4B374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC83CACF-02A0-48F9-AD5B-53F65DB4B374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
