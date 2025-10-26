@@ -44,14 +44,14 @@
           <HintPath>packages\Northwood.LabAPI.1.1.3\lib\net48\LabApi.dll</HintPath>
         </Reference>
         <Reference Include="SER">
-          <HintPath>..\..\AppData\Roaming\SCP Secret Laboratory\LabAPI\plugins\global\SER.dll</HintPath>
+          <HintPath>$(SL_DEV_REFERENCES)\SER.dll</HintPath>
         </Reference>
         <Reference Include="System"/>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
         <Reference Include="UncomplicatedCustomRoles">
-          <HintPath>..\..\Desktop\LABAPI REF\UncomplicatedCustomRoles-LabAPI.dll</HintPath>
+          <HintPath>$(SL_DEV_REFERENCES)\UncomplicatedCustomRoles-LabAPI.dll</HintPath>
         </Reference>
         <Reference Include="YamlDotNet, Version=11.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
           <HintPath>packages\YamlDotNet.11.0.1\lib\net45\YamlDotNet.dll</HintPath>
