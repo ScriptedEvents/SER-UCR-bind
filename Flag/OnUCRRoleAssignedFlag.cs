@@ -70,7 +70,7 @@ public class OnUCRRoleAssignedFlag : SER.FlagSystem.Structures.Flag
             }
             
             script.AddVariable(new PlayerVariable("evPlayer", new(role.Player)));
-            script.AddVariable(new ReferenceVariable("evRole", new ReferenceValue(role.Role)));
+            script.AddVariable(new ReferenceVariable("evRole", new(role.Role)));
             script.Run();
         }
     }

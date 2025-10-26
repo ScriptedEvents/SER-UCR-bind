@@ -23,6 +23,6 @@ public class GetUCRRoleMethod : ReferenceReturningMethod
     
     public override void Execute()
     {
-        ReturnValue = new(SummonedCustomRole.Get(Args.GetPlayer("player")).Role);
+        ReturnValue = new(SummonedCustomRole.Get(Args.GetPlayer("player"))?.Role);
     }
 }
